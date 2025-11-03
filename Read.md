@@ -95,3 +95,7 @@
   tup_packing=1,2,3,4, "Hello"
   print(tup_packing)
   print(type(tup_packing))
+  print(tup_packing[2])
+  # tup_packing[2]=10 #TypeError: 'tuple' object does not support item assignment
+
+
