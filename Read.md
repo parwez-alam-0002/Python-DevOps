@@ -71,3 +71,28 @@
   #print(str1[9]) #Will return an exception because the actual length is less than accessing length
   print(str1[-1]) #return `n`
   ```
+# List Data Type
+- This is an ordered and mutable list 
+- Can be stored mixed value.
+- Values can be accessed by index value.
+- ```python
+  list=[] #creating empty list
+  
+  list1=['Parwez', "Pwskills", 121, 1022.2, 4+9j]
+  print(type(list))  #<class 'list'>
+  print(list1[0]) #Parwez
+  print(list1[2]) #121
+  print(list1[-1]) #(4+9j)
+  print(list1[-1].real) #Accessing real part
+  print(list1[-1].imag) #Accessing imaginary part
+ ```
+# Tuples
+-```python
+  # Tuples are created in `()` paranthesis. It is an ordered and immutable object in python.
+  tup =() # Empty tuples () are created.
+  print(type(tup)) #<class 'tuple'>
+  # assign multiple value separated by comma called Tuple Packing.
+  tup_packing=1,2,3,4, "Hello"
+  print(tup_packing)
+  print(type(tup_packing))
+  ```
