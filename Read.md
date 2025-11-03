@@ -88,7 +88,7 @@
 
 # Tuples
 - ```python
-  # Tuples are created in `()` paranthesis. It is an ordered and immutable object in python.
+  # Tuples are created in `()` paranthesis. It is an ordered and immutable object in python and data can be access by it's index value.
   tup =() # Empty tuples () are created.
   print(type(tup)) #<class 'tuple'>
   # assign multiple value separated by comma called Tuple Packing.
