@@ -98,4 +98,24 @@
   print(tup_packing[2])
   # tup_packing[2]=10 #TypeError: 'tuple' object does not support item assignment
 
-
+# Sets 
+  - set is an unordered built in object in python.
+  - No duplicate allowed.
+  - can be accessed by only iterate.
+  - Duplicates are removed automatically
+- ```python
+  #creation empty set
+  v_set=set()
+  print(type(v_set)) #<class 'set'>
+  
+  #intialization of set
+  v_set=set([1,"Hello",1,"Hello","Python", 200.0, 8+8j])
+  print(type(v_set))#<class 'set'>
+  print(v_set) #{'Hello', 1, (8+8j), 200.0, 'Python'}
+  v_set1=set("Hello How are you!")
+  print(v_set1) #{' ', 'l', 'o', '!', 'y', 'w', 'r', 'a', 'u', 'e', 'H'}
+  
+  #accessing value
+  for i in v_set:
+      print(i)
+  ```
