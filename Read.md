@@ -152,3 +152,11 @@
     # Can be accessed by get() method 
     print(v_dict.get(3)) #if key not found return none.
     ```
+# Walrus Operator python 3.8 version
+- ```python
+  list=[1,2,3,4,5]
+  #  Variable := Expression 
+  #  Variable stores value after expression return the value.
+  if(n:=len(list)>0):
+      print(n)
+  
