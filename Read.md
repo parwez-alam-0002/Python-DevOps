@@ -86,7 +86,7 @@
   print(list1[-1].real) #Accessing real part
   print(list1[-1].imag) #Accessing imaginary part
 
-# Tuples
+# Tuples Data Type
 - Ordered list.
 - Immutable and access by index value.
 - ```python
@@ -100,7 +100,7 @@
   print(tup_packing[2])
   # tup_packing[2]=10 #TypeError: 'tuple' object does not support item assignment
 
-# Sets 
+# Sets Data Type
   - set is an unordered built in object in python.
   - No duplicate allowed.
   - can be accessed by only iterate.
@@ -121,3 +121,34 @@
   for i in v_set:
       print(i)
   ```
+
+# Dictionary Data Type
+
+  - It's hold key-value pair.
+  - Can holds duplicates value.
+  - Key's can't be duplicates.
+  - Keys are case-sensitive.
+  - ```python
+    #creation of empty dict
+    v_dict={}
+    print(type(v_dict)) #<class 'dict'>
+    
+    v_dict={1:"Parwez", 2:"Devops", "Hi": "Learning", "hi":"Learning"}
+    print(v_dict)
+    
+    #print keys vlaue
+    # for key in v_dict.keys():
+    #     print(key)
+    
+    #print value 
+    # for val in v_dict.values():
+    #     print(val)
+    
+    
+    #Can be accessed by key value
+    print(v_dict[1])
+    print(v_dict["hi"]) #if key not found gives return Exception
+    
+    # Can be accessed by get() method 
+    print(v_dict.get(3)) #if key not found return none.
+    ```
