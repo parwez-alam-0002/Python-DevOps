@@ -47,4 +47,18 @@
   imj=2+4j
   print(type(imj)) #<class 'complex'>
   ```
-  
+- Python Strings are arrays of bytes representing Unicode characters.
+- String can be represent as single quotes `'` or  double quotes `"` or triple quotes `'''`.
+- ```python
+  str="I"
+  str2='Love'
+  str1='''Python'''
+  print(type(str))
+  print(type(str1))
+  print(type(str2))
+
+  OUTPUT
+  <class 'str'>
+  <class 'str'>
+  <class 'str'>
+  ```  
