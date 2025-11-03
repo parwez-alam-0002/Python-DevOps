@@ -84,7 +84,7 @@
   print(list1[2]) #121
   print(list1[-1]) #(4+9j)
   print(list1[-1].real) #Accessing real part
-  print(list1[-1].imag) #Accessing imaginary part```
+  print(list1[-1].imag) #Accessing imaginary part
 
 # Tuples
 - ```python
@@ -94,4 +94,4 @@
   # assign multiple value separated by comma called Tuple Packing.
   tup_packing=1,2,3,4, "Hello"
   print(tup_packing)
-  print(type(tup_packing))```
+  print(type(tup_packing))
