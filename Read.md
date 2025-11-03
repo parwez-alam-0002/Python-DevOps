@@ -62,3 +62,12 @@
   <class 'str'>
   <class 'str'>
   ```  
+- ```
+    print(len(str1)) #this function return the length of an string
+  #We can access string value by index as well.
+  #p y t h o n
+  #0 1 2 3 4 5 -- index value
+  print(str1[0]) #return `p`
+  #print(str1[9]) #Will return an exception because the actual length is less than accessing length
+  print(str1[-1]) #return `n`
+  ```
