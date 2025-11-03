@@ -87,6 +87,8 @@
   print(list1[-1].imag) #Accessing imaginary part
 
 # Tuples
+- Ordered list.
+- Immutable and access by index value.
 - ```python
   # Tuples are created in `()` paranthesis. It is an ordered and immutable object in python and data can be access by it's index value.
   tup =() # Empty tuples () are created.
