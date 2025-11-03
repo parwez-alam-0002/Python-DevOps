@@ -28,3 +28,23 @@
   x=int(input())
   print(type(x))
  ```
+
+# Keywords 
+- These are the reserve keywords that we cannot use in variable names, function names, identifiers in python.
+- for check the list of keywords
+- ```python
+  import keyword
+  print(keyword.kwlist) #It will list all the keywords present in the python.
+  for = 10 # this is not accepted in python because for is a reserve keyword.
+  ```
+# Data types
+- Decide what are the operation can be perform with that data.
+- ```python
+  no=100 
+  print(type(no)) #<class 'int'>
+  flt=2.20
+  print(type(flt)) #<class 'float'>
+  imj=2+4j
+  print(type(imj)) #<class 'complex'>
+  ```
+  
