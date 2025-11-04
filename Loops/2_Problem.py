@@ -1,3 +1,5 @@
+# Problem 2: Print squares of numbers from 1 to n
+# Display the square of each number starting from 1 up to a number provided by the user.
 import math
 #Problem 2: Print squares of numbers from 1 to n
 no=int(input("Enter max value:"))
