@@ -1,4 +1,4 @@
-def my_fun(a,b=10):
-    print(a,b)
+def my_fun(a,b):
+    print(a+b)
 
 my_fun(1)
