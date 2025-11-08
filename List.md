@@ -53,7 +53,7 @@ print(list6)
 - del statement: Deletes an element at a specified index.
 
 ```python
-ist6=[10,20,30,40,50,60,60,70,70,80,90,90,100]
+list6=[10,20,30,40,50,60,60,70,70,80,90,90,100]
 del list6[5] #It will delete that index value
 print(list6) 
 list6.remove(70) #It will remove that specific value
