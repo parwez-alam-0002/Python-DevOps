@@ -34,3 +34,15 @@ print(list5) # ['G', 'e', 'e', 'k', 's', 'F', 'o', 'r', 'G', 'e', 'e', 'k', 's']
 - extend(): Adds multiple elements to the end of the list.
 - insert(): Adds an element at a specific position.
 - clear(): removes all items.
+
+```python
+list6 = [1,2,3,4,5,6,7]
+list6.append(8) #insert at last
+print(list6)
+list6.extend([9,10]) # add multiple value at last
+print(list6)
+list6.insert(1,101) # add a value at a specific index
+print(list6)
+list6.clear() # clear all the value from the list
+print(list6)
+```
