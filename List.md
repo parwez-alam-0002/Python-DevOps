@@ -51,3 +51,18 @@ print(list6)
 - remove(): Removes the first occurrence of an element.
 - pop(): Removes the element at a specific index or the last element if no index is specified.
 - del statement: Deletes an element at a specified index.
+
+```python
+ist6=[10,20,30,40,50,60,60,70,70,80,90,90,100]
+del list6[5] #It will delete that index value
+print(list6) 
+list6.remove(70) #It will remove that specific value
+print(list6)
+print(list6.pop()) # It will remove the last index value if any index not mentioned
+print(list6)
+list6.pop(8) #It will remove the 8th index value
+print(list6)
+
+#del list6  --- This will delete the list 
+#print(list6) 
+```
