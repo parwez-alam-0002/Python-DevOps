@@ -48,6 +48,6 @@ print(list6)
 ```
 
 # Removing Elements from List
-    - remove(): Removes the first occurrence of an element.
-    - pop(): Removes the element at a specific index or the last element if no index is specified.
-    - del statement: Deletes an element at a specified index.
+- remove(): Removes the first occurrence of an element.
+- pop(): Removes the element at a specific index or the last element if no index is specified.
+- del statement: Deletes an element at a specified index.
