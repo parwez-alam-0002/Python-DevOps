@@ -1,4 +1,7 @@
-#Encapsulation
+#Encapsulation:
+'''
+Hiding all the details and exposing only what neccesary details.
+'''
 class Bank:
     def __init__(self,balance,eid):
         self.balance=balance
