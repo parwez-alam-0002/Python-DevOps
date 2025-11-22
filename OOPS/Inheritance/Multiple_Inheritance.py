@@ -1,25 +1,35 @@
-#Note: if both the parent class have same method then which is (class) is mentioned first like : here Job class is mentioned first
+class Bank:
+    def __init__(self,name,balance):
+        self.__name=name
+        self.__id=id
+        self.__balance=balance
+    
+    def getBalance(self):
+        print(f'{self.__name} balance is : {self.__balance}')
 
-class Person:
-    def __init__(self, name):
-        self.name = name
-    def getMessage(self):
-        print(f'This is Person class')
-class Job(Person):
-    def __init__(self, salary):
-        self.salary = salary
-        
-    def getMessage(self):
-        print(f'This is Job class')
+    def deposite(self,amt):
+        self.__balance+=amt
 
-class Employee(Job, Person):  # Inherits from both Person and Job
-    def __init__(self, name, salary):
-        Person.__init__(self, name)
-        Job.__init__(self, salary)
 
-    def details(self):
-        print(self.name, "earns", self.salary)
-        super().getMessage()
+class Postal:
+    def __init__(self, salary, name):
+        self.__salary=salary
+        self.__name=name
 
-emp = Employee("Jennifer", 50000)
-emp.details()
+    def getBalance(self):
+        print(f'{self.__name} salary is : {self.__salary}')
+
+
+class Employee(Postal,Bank):
+    def __init__(self,amount,name,salary):
+        Bank.__init__(self,name,amount)
+        Postal.__init__(self,salary,name)
+
+    def callFn(self,amt):
+        self.deposite(amt)
+        Postal.getBalance(self)
+        Bank.getBalance(self)
+
+
+emp=Employee(2000,'Parwez Alam',40000)
+emp.callFn(1000)
